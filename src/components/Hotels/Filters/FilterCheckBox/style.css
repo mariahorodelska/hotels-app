@@ -1,0 +1,9 @@
+
+
+.check-box__title {
+    border: 1px solid rgb(236, 217, 191) ;
+    padding: 10px 5px;
+    margin-bottom: 7px;
+    cursor: pointer;
+    background-color: antiquewhite;
+}

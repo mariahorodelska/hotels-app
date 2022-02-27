@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fa-search {
+    float: left;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    grid-gap: 10px;
+}
+
+.form__cancel-button i {
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__block {
+    padding: 10px;
+    background-color: rgb(216, 189, 189);
+    border: 2px solid rgb(235, 198, 198);
+    border-radius: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.search {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  
+
+}
+
+.form__guests-header {
+    padding: 10px;
+    background-color: rgb(216, 189, 189);
+    border: 2px solid rgb(235, 198, 198);
+    border-radius: 20px;
+   
+    cursor: pointer;
+}
+
+.form__date {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+   
+
+}
+
+.form__date button {
+    border: 1px solid #000;
+    padding: 10px;
+    background-color: rgb(216, 189, 189);
+    border: 2px solid rgb(235, 198, 198);
+  cursor: pointer;
+}
+
+.form__guests-dropdown {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+}
+
+.form__input {
+      /* background-color: rgb(216, 189, 189); */
+    padding:10px;
+    border: none; 
+    outline: none;
+    text-align: center;
+}
+
+.form__cancel-button {
+    color: black;
+    float: right; 
+}
+
+.form__button {
+    background-color: antiquewhite;
+    cursor: pointer;
+    border: 2px solid rgb(240, 222, 198);
+    padding: 7px 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+
+.react-calendar {
+    position: absolute;
+    z-index: 10000;
+}
+
+  .react-calendar__navigation__label {
+      text-align: center;
+  }
+
+  .react-calendar__navigation__arrow {
+      text-align: center;
+  }

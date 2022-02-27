@@ -1,0 +1,18 @@
+.hotel__name {
+    font-weight: bold;
+}
+
+.hotel__price {
+    font-weight: bold;
+}
+
+.hotel__button {
+    border: 1px solid rgb(102, 3, 3);
+    display: inline-block;
+    padding: 5px 11px;
+    background-color: rgb(180, 116, 116) ;
+}
+
+.hotel__landmarks {
+    display: block;
+}

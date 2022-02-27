@@ -1,0 +1,12 @@
+.hotels__items {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 270px auto;
+}
+
+.hotels__header {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
